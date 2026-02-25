@@ -773,6 +773,9 @@ nav ul li a:hover {
     max-height: 0;
     transition: max-height 0.4s ease;
   }
+  .logo{
+    font-size: 18px;
+  }
 
   nav ul {
     display: flex;
@@ -789,4 +792,29 @@ nav ul li a:hover {
   #menu-toggle:checked ~ nav {
     max-height: 80px;
   }
+}
+
+
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 60px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1ebe5d;
 }
